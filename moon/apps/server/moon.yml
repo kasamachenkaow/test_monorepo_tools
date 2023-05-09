@@ -1,0 +1,17 @@
+type: 'server'
+language: 'typescript'
+
+project:
+  name: 'serer'
+  description: 'A server'
+  channel: '#server'
+  owner: 'team.server'
+  maintainers: ['kasama.chenkaow']
+
+tasks:
+    build:
+        command: 'prepare'
+        inputs:
+            - '**/*'
+        outputs:
+            - 'build'

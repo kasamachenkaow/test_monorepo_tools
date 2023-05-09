@@ -1,0 +1,21 @@
+{
+  "name": "moon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "moon": "$(yarn bin moon)"
+  },
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@moonrepo/cli": "^1.5.0"
+  },
+  "packageManager": "yarn@3.2.0"
+}

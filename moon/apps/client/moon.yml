@@ -1,0 +1,17 @@
+type: 'client'
+language: 'typescript'
+
+project:
+  name: 'client'
+  description: 'A client'
+  channel: '#client'
+  owner: 'team.client'
+  maintainers: ['kasama.chenkaow']
+
+tasks:
+    start:
+        command: 'react-native start'
+        inputs:
+            - '**/*'
+        outputs:
+            - 'build'
